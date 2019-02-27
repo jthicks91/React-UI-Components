@@ -1,1 +1,47 @@
-/* All styles for your header Components live here */
+header {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+}
+
+
+header p, header h4, header h1 {
+    margin: 0;
+}
+
+header>section>div {
+    margin-bottom: 10px;
+}
+
+header section > div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.headerContent {
+    width: 90%;
+}
+
+.imageThumbnail {
+    width: 10%;
+    height: 65%;
+}
+
+.imageThumbnail>img {
+    width: 74%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+header h4 {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: silver;
+}
