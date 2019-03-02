@@ -1,0 +1,13 @@
+.displayBox {
+    padding: 5px;
+    border: 1px pink solid;
+    height: 100px;
+    background: #222222;
+    line-height: 100px;
+    text-align: right;
+
+}
+
+.displayBox h2 {
+    font-sie: 5px;
+}

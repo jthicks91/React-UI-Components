@@ -1,5 +1,8 @@
 .appContainer {
     border: 1px solid black;
+    margin: 0 auto;
+    min-height: 600px;
+    width: 400px;
 }
 
 .displayContainer {
