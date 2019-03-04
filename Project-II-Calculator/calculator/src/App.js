@@ -1,17 +1,19 @@
+//<------Imports Below-----> //
 import React from "react";
 import "./App.css";
 
 import CalcDisplay from "./components/DisplayComponents/CalculatorDisplay";
-import ActionNumberButtons from "./components/ButtonComponents/ActionNumberButtons';
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import ActionButton from "./components/ButtonComponents/ActionButton";
+
+//<------Imports Above-----> //
 
 const App = () => {
   return (
-    <div className='container'>
+    <div className="calc-container">
       <CalcDisplay />
-      <ActionNumberButtons />
     </div>
+  );
+};
 
-    );
-  };
-
-  export default App;
+export default App;

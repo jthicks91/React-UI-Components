@@ -1,18 +1,6 @@
-.appContainer {
-    border: 1px solid black;
-    margin: 0 auto;
-    min-height: 600px;
-    width: 400px;
-}
-
-.displayContainer {
-    border: 1px red;
-}
-
-.numButtonContainer {
-    border: 1px solid blue;
-}
-
-.actButtonContainer {
-    border: 1px solid green;
+.container {
+    width: 456px;
+    height: 598px;
+    border: 2px solid #979797;
+    margin: 50px auto;
 }

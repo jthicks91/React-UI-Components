@@ -1,13 +1,9 @@
-.displayBox {
-    padding: 5px;
-    border: 1px pink solid;
+.defaultCalcValue{
     height: 100px;
     background: #222222;
+    color: #ffffff;
+    font-size: 48px;
     line-height: 100px;
+    padding: 6px;
     text-align: right;
-
-}
-
-.displayBox h2 {
-    font-sie: 5px;
 }

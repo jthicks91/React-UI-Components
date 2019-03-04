@@ -1,12 +1,8 @@
 import React from "react";
 import "./Display.css";
 
-const CalcDispaly = props => {
-  return (
-    <div className="displayBox">
-      <h1>0</h1>
-    </div>
-  );
+const CalcDispaly = () => {
+  return <div className="defaultCalcValue">0</div>;
 };
 
 export default CalcDispaly;
