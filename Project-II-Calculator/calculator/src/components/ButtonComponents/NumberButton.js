@@ -3,17 +3,8 @@ import "./Button.css";
 
 const NumberButtons = props => {
   return (
-    <div className="numButtons">
-      <button className={`normalNumberStyle ${props.numberButtonStyle}`}>
-        {props.buttonText}
-      </button>
-    </div>
+    <button className={`number-button ${props.bgrColor}`}>{props.text}</button>
   );
-};
-
-NumberButtons.defaultProps = {
-  normalNumberStyle: "red",
-  buttonText: "X"
 };
 
 export default NumberButtons;
