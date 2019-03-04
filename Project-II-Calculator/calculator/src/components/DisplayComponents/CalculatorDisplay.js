@@ -1,8 +1,8 @@
 import React from "react";
 import "./Display.css";
 
-const CalcDispaly = () => {
+const CalcDisplay = () => {
   return <div className="defaultCalcValue">0</div>;
 };
 
-export default CalcDispaly;
+export default CalcDisplay;

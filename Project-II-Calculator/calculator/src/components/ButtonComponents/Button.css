@@ -3,29 +3,36 @@
     height: 100px;
 }
 
-.red-button {
-    text-align: center;
-    line-height: 100px;
-    font-size: 50px;
-    font-weight: 200;
-    color: #ffffff;
-    background: #9e0523;
-    width: 100px;
-
-}
-
 .number-button {
     width: 100px;
     border: 1px solid gray;
+}
+
+.three-quarters-item {
+    width: 300px;
+    border: 1px solid gray;
     font-size: 50px;
 }
 
-.three-quarters {
-    width: 300px;
-    border: 1px solid gray;
-    font-weight: 200;
-    font-size: 48px;
-    line-height: 100px;
+.red-button {
     text-align: center;
+    line-height: 100px;
+    font-size: 62px;
+    font-weight: 200;
+    color: #ffffff;
+    background: #9e0523;
+    /* width: 100px; */
+}
 
+.numb-button {
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+};
+
+.three-quarters-text {
+    text-align: center;
+    line-height: 100px;
+    font-weight: 200px;
 }
